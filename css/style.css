@@ -1,0 +1,194 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+.top-page {
+  background-color: var(--third-background-color);
+}
+:root {
+  --third-background-color: #ffffff;
+  --logo-top: #000000;
+  --half-logo: #2196f3;
+  --highlited: #2196f3;
+  --text-color-one: #757575;
+  --first-color-background: #2f303a;
+  --second-color-background: #f5f4fa;
+  --color-menu: #212121;
+}
+.logo-top {
+  color: var(--logo-top);
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.half-logo {
+  color: var(--half-logo);
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.element-menu {
+  color: var(--color-menu);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.element-menu:hover,
+.element-menu:focus {
+  color: var(--highlited);
+}
+.contact-top {
+  color: var(--text-color-one);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.contact-top:hover,
+.contact-top:focus {
+  color: var(--highlited);
+}
+.title-field {
+  background-color: var(--first-color-background);
+}
+.title {
+  color: var(--third-background-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.order-service-button {
+  background-color: var(--highlited);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: var(--third-background-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.secondary-header {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color-one);
+}
+.primary-header {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color-one);
+}
+.personel {
+  background-color: var(--second-color-background);
+}
+.personel-list {
+  background-color: var(--third-background-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.bottom-page {
+  background-color: var(--first-color-background);
+}
+.logo-bottom {
+  color: var(--third-background-color);
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.address-of-company {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--third-background-color);
+}
+.bottom-contact {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.bottom-contact:hover,
+.bottom-contact:focus {
+  color: var(--highlited);
+}
+
+.portfolio-button {
+  background: var(--second-color-background);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--highlited);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: var(--white);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  align-items: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.portfolio-pictrue {
+  background-color: var(--white);
+  border: 1px solid #eeeeee;
+}
+.portfolio-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-description {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--text-color-one);
+  letter-spacing: 0.03em;
+}
