@@ -7,6 +7,7 @@ body {
 }
 .top-page {
   background-color: var(--third-background-color);
+  border-bottom: var(--border-line-color);
 }
 :root {
   --third-background-color: #ffffff;
@@ -17,6 +18,7 @@ body {
   --first-color-background: #2f303a;
   --second-color-background: #f5f4fa;
   --color-menu: #212121;
+  --border-line-color: #ececec;
 }
 .logo-top {
   color: var(--logo-top);
