@@ -2,6 +2,9 @@ body {
   font-family: "Roboto", sans-serif;
   color: #212121;
 }
+.container {
+  width: 1200px;
+}
 .top-page {
   background-color: var(--third-background-color);
 }
