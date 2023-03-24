@@ -22,44 +22,48 @@
         <a class="logo-top" href="./index.html"
           ><span class="half-logo">Web</span>Studio</a
         >
-        <nav>
-          <ul>
-            <li><a class="element-menu" href="./index.html">Agencja</a></li>
-            <li>
-              <a class="element-menu" href="./portfolio.html">Portfolio</a>
+        <nav class="menu">
+          <ul class="menu-list">
+            <li class="menu-list-item">
+              <a class="link-menu" href="./index.html">Agencja</a>
             </li>
-            <li><a class="element-menu" href="#">Kontakt</a></li>
+            <li class="menu-list-item">
+              <a class="link-menu" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu-list-item">
+              <a class="link-menu" href="#">Kontakt</a>
+            </li>
           </ul>
         </nav>
-        <a class="contact-top" href="mailto:info@devstudio.com"
-          >info@devstudio.com</a
-        ><br />
-        <a class="contact-top" href="tel:+48111111111">+48 111 111 111</a>
+        <div class="contact-list">
+          <a class="contact-top" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          ><br />
+          <a class="contact-top" href="tel:+48111111111">+48 111 111 111</a>
+        </div>
       </div>
     </header>
     <main>
       <div class="container">
-        <section>
-          <ul>
-            <li>
+        <section class="section">
+          <ul class="portfolio-button-list">
+            <li class="portfolio-button-item">
               <button class="portfolio-button" type="button">Wszystkie</button>
             </li>
-            <li>
+            <li class="portfolio-button-item">
               <button class="portfolio-button" type="button">Strony</button>
             </li>
-            <li>
+            <li class="portfolio-button-item">
               <button class="portfolio-button" type="button">Aplikacje</button>
             </li>
-            <li>
+            <li class="portfolio-button-item">
               <button class="portfolio-button" type="button">Dizajn</button>
             </li>
-            <li>
+            <li class="portfolio-button-item">
               <button class="portfolio-button" type="button">Marketing</button>
             </li>
           </ul>
-        </section>
-        <section>
-          <ul>
+          <ul class="portfolio-list">
             <li class="portfolio-pictrue">
               <img
                 src="./images/portfolio/technocrack.jpg"
@@ -77,7 +81,7 @@
                 width="370"
                 height="294"
               />
-              <h4>Grafika New Orlean vs Golden Star</h4>
+              <h4 class="portfolio-name">Grafika New Orlean vs Golden Star</h4>
               <p class="portfolio-description">Dizajn</p>
             </li>
             <li class="portfolio-pictrue">
@@ -156,15 +160,19 @@
     </main>
     <footer class="bottom-page">
       <div class="container">
-        <a class="logo-bottom" href="./index.html"
-          ><span class="half-logo">Web</span>Studio</a
-        >
-        <address class="address-of-company">
-          m. Warszawa, Aleje Jerozolimskie 21
-        </address>
-        <a class="bottom-contact" href="info@example.com">info@example.com</a
-        ><br />
-        <a class="bottom-contact" href="tel:+48111111111">+48 111 111 111</a>
+        <div class="logo-bottom">
+          <a class="logo-bottom-link" href="./index.html"
+            ><span class="half-logo">Web</span>Studio</a
+          >
+        </div>
+        <div class="contact-data">
+          <address class="address-of-company">
+            m. Warszawa, Aleje Jerozolimskie 21
+          </address>
+          <a class="bottom-contact" href="info@example.com">info@example.com</a
+          ><br />
+          <a class="bottom-contact" href="tel:+48111111111">+48 111 111 111</a>
+        </div>
       </div>
     </footer>
   </body>
