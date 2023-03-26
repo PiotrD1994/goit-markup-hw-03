@@ -32,6 +32,7 @@ body {
   --second-color-background: #f5f4fa;
   --color-menu: #212121;
   --border-line-color: #ececec;
+  --second-border-line-color: #eeeeee;
 }
 .logo-top {
   color: var(--logo-top);
@@ -115,6 +116,8 @@ body {
 }
 .title-field {
   background-color: var(--first-color-background);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .title {
   color: var(--third-background-color);
@@ -126,7 +129,6 @@ body {
   text-transform: uppercase;
   padding-left: 252px;
   padding-right: 252px;
-  padding-top: 200px;
   margin-bottom: 40px;
   margin-top: 0px;
 }
@@ -147,7 +149,6 @@ body {
 .button-container {
   padding-left: 500px;
   padding-right: 500px;
-  padding-bottom: 200px;
 }
 .description-list {
   display: flex;
@@ -349,7 +350,6 @@ body {
 }
 .portfolio-pictrue {
   background-color: var(--white);
-  border-bottom: 1px solid #eeeeee;
   margin: 30px;
 }
 .portfolio-pictrue:first-child {
@@ -396,18 +396,23 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-top: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
   margin-bottom: 4px;
+  margin-top: 0px;
 }
 .portfolio-description {
   font-size: 16px;
   line-height: 1.87;
   color: var(--text-color-one);
   letter-spacing: 0.03em;
+  margin: 0px;
+}
+.portfolio-item-info {
+  border-left: 1px solid var(--second-border-line-color);
+  border-right: 1px solid var(--second-border-line-color);
+  border-bottom: 1px solid var(--second-border-line-color);
   padding-left: 24px;
   padding-right: 24px;
+  padding-top: 20px;
   padding-bottom: 20px;
   margin: 0px;
 }
